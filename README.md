@@ -19,3 +19,6 @@ Jika URL yang digunakan dalam program publisher dan program subscriber keduanya 
 program terhubung ke instansi message broker yang sama yang berjalan pada mesin yang sama, menggunakan kredensial
 otentikasi dan nomor port yang sama juga. Hal tersebut ditujukan untuk memastikan bahwa publisher dapat menpublish pesan
 ke instansi message broker yang sama di mana subscriber berlangganan.
+
+**Running RabbitMQ as message broker.**
+![img1.png](image%2Fimg1.png)
