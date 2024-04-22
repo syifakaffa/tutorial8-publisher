@@ -22,3 +22,16 @@ ke instansi message broker yang sama di mana subscriber berlangganan.
 
 **Running RabbitMQ as message broker.**
 ![img1.png](image%2Fimg1.png)
+
+**Sending and processing event.**
+![img2.png](image%2Fimg2.png)
+
+- Publisher Console
+![img3.png](image%2Fimg3.png)
+
+- Subscriber Console
+![img4.png](image%2Fimg4.png)
+
+Gambar di atas menunjukkan bahwa setelah aplikasi publisher dijalankan, publisher akan mengirimkan data yang
+telah di-hardcode ke dalam kode kepada message queue. Subscriber yang terhubung ke message queue akan menerima
+data dari message queue tersebut dan mencetaknya di console sesuai dengan kode yang telah dibuat.
