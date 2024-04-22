@@ -35,3 +35,12 @@ ke instansi message broker yang sama di mana subscriber berlangganan.
 Gambar di atas menunjukkan bahwa setelah aplikasi publisher dijalankan, publisher akan mengirimkan data yang
 telah di-hardcode ke dalam kode kepada message queue. Subscriber yang terhubung ke message queue akan menerima
 data dari message queue tersebut dan mencetaknya di console sesuai dengan kode yang telah dibuat.
+
+
+**Monitoring chart based on publisher.**
+![img5.png](image%2Fimg5.png)
+
+Gambar di atas diperoleh setelah melakukan `cargo run` yang ke-3 kali dari yang pertama dilakukan. Grafik di atas menunjukkan
+bahwa terdapat peningkatan message rate pada interval waktu tertentu. Peningkatan ini terkait dengan pelaksanaan `cargo run`
+pada publisher. Dapat dilihat bahwa setiap kali publisher diimplementasikan, akan terjadi peningkatan laju pesan pada RabbitMQ
+yang berguna sebagai message queue.
