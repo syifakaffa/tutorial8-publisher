@@ -45,13 +45,4 @@ bahwa terdapat peningkatan message rate pada interval waktu tertentu. Peningkata
 pada publisher. Dapat dilihat bahwa setiap kali publisher diimplementasikan, akan terjadi peningkatan laju pesan pada RabbitMQ
 yang berguna sebagai message queue.
 
-**Simulation slow subscriber**
-![img6.png](image%2Fimg6.png)
-
-Dari gambar di atas, bisa dilihat bahwa jumlah total message dalam antran pada satu waktu sebanyak +-20 message 
-(saya menjalankan 6 kali cargo run). Hal ini terjadi karena subscriber memerlukan lebih banyak waktu untuk mengelola 
-setiap event dalam message queued, sehingga terjadi penumpukan pesan karena publisher lebih cepat dalam mempublish 
-pesan daripada subscriber dalam mengolahnya.
-
-
 
